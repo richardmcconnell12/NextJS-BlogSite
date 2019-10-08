@@ -1,9 +1,9 @@
 import React from 'react';
-import Layout from 'layouts/Main';
-import { getPosts } from 'api/posts';
+import Layout from '../layouts/Main';
+import { getPosts } from '../api/posts';
 import { Link } from 'routes';
 
-import Post from 'components/Post'
+import Post from '../components/Post'
 
 const IndexPage = ({ posts }) => (
     <Layout>
